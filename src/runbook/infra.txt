@@ -7,3 +7,7 @@ You need to cd into the folder startup-client to install bootstrap and router, o
 7/9/2022
 
 used https://reactrouter.com/docs/en/v6/getting-started/tutorial for setting up the routes
+
+To fix below warning in compilation, use npm install bootstrap@5.2.0-beta1
+(2482:3) autoprefixer: Replace color-adjust to print-color-adjust. The color-adjust shorthand is currently deprecated.
+WARNING in ./node_modules/bootstrap/dist/css/bootstrap.min.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5]
