@@ -1,0 +1,9 @@
+npx create-react-app startup-client
+cd startup-client
+npm install bootstrap
+npm install react-router-dom@6
+
+You need to cd into the folder startup-client to install bootstrap and router, otherwise you will have a separate node module outside. This is a clean build. 
+7/9/2022
+
+used https://reactrouter.com/docs/en/v6/getting-started/tutorial for setting up the routes
